@@ -8,6 +8,7 @@ def suma_naturales(n):
         return 0
     return n + suma_naturales(n - 1)
 
+
 def fibonacci(n):
     if n == 0:
         return 0
