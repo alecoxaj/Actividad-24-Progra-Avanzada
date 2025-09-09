@@ -34,7 +34,6 @@ def potencia(base, exponente):
         return 1
     return base * potencia(base, exponente - 1)
 
-
 while True:
     print("MENÚ:")
     print("1. Calcular el factorial de un número")
