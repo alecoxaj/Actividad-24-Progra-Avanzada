@@ -22,6 +22,7 @@ def contar_letra(palabra, letra, indice=0):
         return 0
     return (1 if palabra[indice] == letra else 0) + contar_letra(palabra, letra, indice + 1)
 
+
 def invertir_cadena(cadena):
     if len(cadena) == 0:
         return ""
