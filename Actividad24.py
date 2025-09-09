@@ -16,6 +16,7 @@ def fibonacci(n):
         return 1
     return fibonacci(n - 1) + fibonacci(n - 2)
 
+
 def contar_letra(palabra, letra, indice=0):
     if indice == len(palabra):
         return 0
